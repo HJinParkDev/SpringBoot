@@ -68,7 +68,31 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	
+   <dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot</artifactId>
+     <version>2.1.7.RELEASE</version>
+   </dependency>
+ 
+   <dependency>
+     <groupId>com.github.mcpat.apistubs</groupId>
+     <artifactId>cldc-1.1-stub</artifactId>
+     <version>1.0.1</version>
+   </dependency>
+ 
+   <dependency>
+     <groupId>org.springframework</groupId>
+     <artifactId>spring-core</artifactId>
+     <version>5.1.9.RELEASE</version>
+   </dependency>
+ 
+   <dependency>
+     <groupId>net.griffiti</groupId>
+     <artifactId>spring-shell-utils</artifactId>
+     <version>1.0.4</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>
